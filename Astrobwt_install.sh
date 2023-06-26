@@ -22,4 +22,4 @@ while :; do
 done' > rpc_mining.sh
 
 # Make rpc_mining.sh executable
-chmod +x rpc_miner.sh
+chmod +x rpc_mining.sh

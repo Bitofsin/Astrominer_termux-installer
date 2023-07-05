@@ -11,7 +11,7 @@ apt-get install wget -y
 wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.9.2.R5/astrominer-V1.9.2.R5_aarch64_android.tar.gz
 
 # Extract the file
-tar -xzvf astrominer-V1.9.2.R4_aarch64_android.tar.gz
+tar -xzvf astrominer-V1.9.2.R5_aarch64_android.tar.gz
 
 # Modify rpc_mining.sh
 echo '#!/bin/bash

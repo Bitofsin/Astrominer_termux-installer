@@ -17,7 +17,7 @@ tar -xzvf astrominer-V1.9.2.R5_aarch64_android.tar.gz
 echo '#!/bin/bash
 echo "Replace YOUR_ADDRESS, YOUR_NODE:YOUR_PORT to run the miner"
 while :; do
-    ./astrominer -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6ua5y7w3m93n5spakgn6 -r dero.rabidmining.com:10300 -p rpc -t 3;
+    ./astrominer -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92x6ua5y7w3m93n5spakgn6 -r dero.rabidmining.com:10300 -p rpc -m 3;
     sleep 5;
 done' > rpc_mining.sh
 
